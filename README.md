@@ -1,6 +1,6 @@
 # tsv-loader
 
-FIXME: Simple script to load TSV files into postgres
+Simple script to load TSV files into postgres
 
 ## Usage
 
