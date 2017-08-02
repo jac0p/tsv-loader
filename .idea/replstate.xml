@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ReplState" timestamp="1447680040438">{:repl-history {:ide [], :local [&quot;(tsv-loader.core/convert-epoch-to-mysql 1445247255054)&quot; &quot;(Float/parseFloat \&quot;0.1\&quot;)&quot; &quot;(parse-int \&quot;123\&quot;)&quot; &quot;(tsv-loader.core/convert-epoch-to-mysql 1445247255054)&quot; &quot;(type 1445247255054)&quot; &quot;(clj-time.format/show-formatters)&quot; &quot;*ns*&quot; &quot;(doseq [x (range 6)]\n  (println x)\n  )&quot; &quot;(-main)&quot; &quot;(-main 1)&quot; &quot;(-main \&quot;jdbc:postgresql://54.212.254.40/PerfResults?user=tabjolt&amp;password=lofasz12\&quot;)&quot;], :remote []}}</component>
+</project>

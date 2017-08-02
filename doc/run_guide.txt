@@ -1,0 +1,14 @@
+DATARETRIEVER.EXE
+PS C:\TabJolt> .\bin\DataRetriever.exe -configPath=c:\dev\tsv-loader\resources\dataretriever.config -outputpath=C:\dev\tsv-loader\resources\os_out.tsv --d=300
+
+DATARETRIEVER.JAR
+PS C:\TabJolt> java -jar .\bin\dataretriever.jar --configPath C:\dev\tsv-loader\resources\dataretriever.config --jmxOutputPath=C:\dev\tsv-loader\resources\jmx_out.tsv --jmxDuration=300
+
+LOAD TSV
+PS C:\dev\tsv-loader> java -jar tsv-loader-0.1.0-SNAPSHOT-standalone.jar "jdbc:postgresql://54.212.254.40/PerfResults?user=tabjolt&password=lofasz12"
+USAGE: java -jar <JAR FILE> <DB-SPEC>
+DB-SPEC FORMAT: jdbc:postgresql://HOSTNAME/DATABASE?user=USERNAME&password=PASSWORD
+PLACE TSV FILES UNDER resources/os_out.tsv AND resources/jmx_out.tsv
+Finished inserting data from  resources/os_out.tsv
+Finished inserting data from  resources/jmx_out.tsv
+PS C:\dev\tsv-loader>
